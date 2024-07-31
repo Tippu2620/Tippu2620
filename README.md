@@ -15,7 +15,7 @@ class Student:
     def calculate_average(self):
         total = 0
         count = 0
-        for grades in self.grades.values():
+        for gra des in self.grades.values():
             total += sum(grades)
             count += len(grades)
         return total / count if count != 0 else 0
